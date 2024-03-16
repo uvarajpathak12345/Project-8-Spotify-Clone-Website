@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(41, 41, 41);
+}
+header{
+    position: absolute;
+    display: inline-block;
+    width: 77%;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 14px 14px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .icon{
+    color: rgb(196, 196, 196);
+
+}
+nav .icon i{
+    margin: 0 19px;
+    font-size: 25px;
+    padding: 12px 12px;
+    border-radius: 300px;
+    background-color: rgb(61, 61, 61);
+}
+
+nav .words{
+    display: flex;
+
+}
+nav .words button{
+    padding: 9px 17px;
+    border-radius: 42px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 19px;
+}
+nav .words p{
+    margin-top: 12px;
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.container img{
+    width: 4em;
+    position: absolute;
+    top: 136px;
+    margin-left: 104px;
+    opacity: 0;
+}
+
+.all {
+    background-color: rgb(63, 63, 63);
+    border-radius: 12px;
+    width: 92%;
+    max-width: 10.8em;
+    height: 16em;
+    margin: 16px;
+    transition: background-color 0.2s;
+}
+.all:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+.img {
+    background-image: url(images/kailash.jpg);
+    width: 85%;
+    height: 46%;
+    background-size: cover;
+    margin: 13px;
+    border-radius: 9px;
+}
+
+.text {
+    margin-left: 15px;
+    color: white;
+}
+
+.text h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.text p {
+    margin-top: 9px;
+    color: rgb(190, 190, 190);
+    margin-bottom: 0px;
+}
+h3{
+    margin-left: 34px;
+    color: white;
+}
+
+.spotify-footer {
+    background-color:#121212;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .containerfooter {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    margin-left: 37px;
+    margin-top: 9px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ccc;
+  }
+  .icons{
+    width: 15%;
+    margin-right: 76px;
+    display: flex;
+  }
+  .icons i {
+      margin-top: 23px;
+      font-size: 28px;
+    margin-left: 27px;
+}
+
+
+.line{
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.lasttext{
+    margin-bottom: 7em;
+    margin-left: 34px;
+    
+}
+
+.bdy{
+    display: inline-block;
+    width: 18.4em;
+}
+.iconHeader {
+    display: flex;
+    align-items: center;
+}
+
+.addLibrary {
+    display: inline-block;
+
+}
+
+.plusIcon {
+    float: right;
+}
+
+.insideDiv {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.card {
+    background-color: rgb(36, 36, 36)
+}
+
+.monospaced {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.zoomButton {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Customizing the scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:rgb(146, 146, 146);
+    /* Set the color of the thumb (the draggable part) */
+}
+
+::-webkit-scrollbar-track {
+    background-color:rgb(18, 18, 18);;
+    /* Set the color of the track (the area behind the thumb) */
+}
+.divboxesesofmusic{
+    display: inline-block;
+    width: 79%;
+    top: 19%;
+    position: absolute;
+}
+.footerendpart{
+    display: inline-block;
+    width: 100%;
+    margin-top: 34px;;
+    position: absolute;
+    margin-left: 34px;
+}
+
+.divboxesesofmusic {
+    background-color: #121212;
+    border-radius: 16px;
+    top: 14%;
+    padding-top: 14px;
+    position:absolute ;
+    width: 78%; /* Set the width of the container */
+    height: 62.5%; /* Set the height of the container */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: #121212 #121212; /* Set the color of the scrollbar */
+}
+
+.divboxesesofmusic::-webkit-scrollbar {
+    width: 9px; /* Set the width of the scrollbar */
+}
+
+.divboxesesofmusic::-webkit-scrollbar-thumb {
+    background-color: #121212;; /* Set the color of the scrollbar thumb */
+    border-radius: 42px; /* Round the corners of the scrollbar thumb */
+}
+
+.divboxesesofmusic::-webkit-scrollbar-thumb:hover {
+    background-color: #121212;
+    border-radius: 12px;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bottom {
+    position: sticky;
+    height: 21vh;
+    color: white;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 1em;
+    /* Adjust the spacing as needed */
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
